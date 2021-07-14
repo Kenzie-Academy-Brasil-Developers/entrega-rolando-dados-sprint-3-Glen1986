@@ -1,4 +1,13 @@
 
+body:nth-child(2){
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+  align-items:center;
+}
+.boxGame{
+  margin: 2rem 0;
+}
 .destino {
   border: 2px solid black;
 }
