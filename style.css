@@ -1,5 +1,6 @@
 
 body:nth-child(2){
+  background-color:#acacac;
   display:flex;
   flex-direction:column;
   text-align:center;
@@ -14,4 +15,14 @@ body:nth-child(2){
 .boxGame {
   display: flex;
   align-items: end;
+}
+@media screen and (min-width:760px){
+
+body:nth-child(2) {
+  background-color:#ccc;
+  display:flex;
+  flex-direction:column;
+  text-align:left;
+  align-items:start;
+}
 }
