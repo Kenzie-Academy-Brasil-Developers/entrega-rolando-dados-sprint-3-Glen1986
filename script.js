@@ -7,9 +7,12 @@ destino.appendChild(button);
 button.innerText = "Joint";
 button.id = "button";
 
+const title = document.createElement("h2");
+title.innerText = "Grafico"
 const clickButton = document.querySelector("#button");
 const conteudo = document.createElement("div");
 const titulo = document.createTextNode("Rolando");
+destiny.classList.add("listaResultados");
 /////////////////////////////////////////////////
 ///////////// Grafico ///////////////////////////
 /////////////////////////////////////////////////
@@ -20,7 +23,6 @@ function grafico() {
     const barras = document.createElement("div");
     barras.classList.add("barras");
     barras.style.border = "1px solid black";
-
     barras.style.height = `${cont[i]}px `;
     barras.style.width = "2rem";
     barras.innerText = `${i + 2}`;
@@ -30,10 +32,12 @@ function grafico() {
   }
 }
 
-function mostrarR(resultado) {
+/* 
+  */function mostrarR(resultado) {
   const div = document.createElement("div");
   destiny.appendChild(div);
   div.innerText = resultado;
+destiny.appendChild(title);
 }
 
 clickButton.addEventListener("click", function () {

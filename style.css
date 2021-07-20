@@ -5,9 +5,19 @@ body:nth-child(2){
   flex-direction:column;
   text-align:center;
   align-items:center;
+  margin: 0 2rem;
+}
+.barras{
+  margin-right: 1rem;
+  background-color:red;
+  color: #ffffff;
+  text-align:baseline;
+  text-align: bottom;
 }
 .boxGame{
   margin: 2rem 0;
+  padding: 1rem;
+  border: 2px solid green;
 }
 .destino {
   border: 2px solid black;
@@ -24,5 +34,6 @@ body:nth-child(2) {
   flex-direction:column;
   text-align:left;
   align-items:start;
-}
+  margin: 0 2rem;
+  }
 }
