@@ -18,6 +18,7 @@ body:nth-child(2){
   margin: 2rem 0;
   padding: 1rem;
   border: 2px solid green;
+  align-items: flex-end
 }
 .destino {
   border: 2px solid black;
