@@ -15,16 +15,14 @@ body:nth-child(2){
 }
 
 .boxGame{
+  display: flex;
+  align-items: flex-end;
   margin: 2rem 0;
   padding: 1rem;
   border: 2px solid green;
 }
 .destino {
   border: 2px solid black;
-}
-.boxGame {
-  display: flex;
-  align-items: end;
 }
 @media screen and (min-width:760px){
 
